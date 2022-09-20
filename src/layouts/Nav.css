@@ -1,0 +1,35 @@
+.header {
+  display: flex;
+}
+a {
+  color: #084298;
+  text-align: center;
+  padding: 30px 20px;
+  font-size: 23px;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+a.active {
+  background-color: #084298;
+  color: white;
+}
+.nav_ac {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-right: 20px;
+}
+nav {
+  overflow: hidden;
+  /* position: fixed; */
+  height: 65px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
