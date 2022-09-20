@@ -1,0 +1,10 @@
+.nav_ac {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-right: 20px;
+}
+.toggleBtn {
+  cursor: pointer;
+}
