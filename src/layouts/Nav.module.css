@@ -1,0 +1,19 @@
+.header {
+  display: flex;
+}
+
+.nav_ac {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-right: 20px;
+}
+nav {
+  overflow: hidden;
+  /* position: fixed; */
+  height: 65px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}

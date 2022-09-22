@@ -1,20 +1,19 @@
-a {
-  color: #f2f2f2;
+.link {
   text-align: center;
   padding: 30px 20px;
   font-size: 23px;
   text-decoration: none;
 }
 
-a:hover {
+.link:hover {
   background-color: #ddd;
   color: black;
 }
 
-a.active {
-  background-color: #ddd;
-  color: white;
+.link.active {
+  color: #084298;
 }
+
 .nav_ac {
   align-items: center;
   display: flex;
