@@ -1,0 +1,33 @@
+.SectionTitle {
+  font-size: 2.5rem;
+  padding-top: 40px;
+}
+.SectionDescription {
+  font-size: 1.5rem;
+  padding-top: 40px;
+  max-width: 55rem;
+  margin: auto;
+  color: #555;
+  line-height: 1.6;
+}
+.SectionTitle:after {
+  animation-name: underlineAnimation;
+  animation-duration: 500ms;
+  content: "";
+  display: block;
+  position: relative;
+  height: 5px;
+  width: 3rem;
+  left: 48%;
+  background-color: #0078ff;
+  border-radius: 5px;
+}
+
+@keyframes underlineAnimation {
+  from {
+    width: 0px;
+  }
+  to {
+    width: 3rem;
+  }
+}
